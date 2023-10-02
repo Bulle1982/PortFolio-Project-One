@@ -215,3 +215,64 @@ footer {
     color: #3a3a3a;
 }
 
+/* About us pages */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #1a1919;
+    text-align: center;
+}
+
+
+
+.section {
+margin-bottom: 30px;
+background-color: #fff;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #1a1919;
+}
+
+
+
+.section ul {
+list-style-type: none;
+margin-left: 20px;
+padding-left: 0;
+}
+
+.section li {
+margin-bottom: 10px;
+}
+
+.section strong {
+font-weight: bold;
+}
+
+.section .centered-paragraphs {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #1a1919;
+    margin: 0 auto;
+    width: 450px;
+   
+}
+
