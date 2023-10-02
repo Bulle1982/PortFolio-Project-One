@@ -196,3 +196,22 @@ hr {
     color: #fafafa;
 }
 
+footer {
+    height: 120px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 7%;
+    margin: 2%;
+    color: #3a3a3a;
+}
+
