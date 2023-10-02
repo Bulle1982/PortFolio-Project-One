@@ -1,54 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Love Coding, club for coders in Eskilstuna, Sweden">
     <meta name="keywords" content="Love Coding, coding club, Eskilstuna, Sweden">
     <title>Love Coding</title>
-    <link rel="stylesheet" href="assets/css/style.css">
     <title>Love Coding</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
+
     <header class="header">
         <a href="index.html">
             <h1 id="logo">Love Coding</h1>
         </a>
         <nav>
             <ul id="menu">
-                <li><a href="join.html">Join Us</a></li>
-                <li><a href="index.html" class="active">About</a></li>
+                <li><a href="join.html" class="active">Join Us</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="hero-outer">
-        <div id="hero-image">
-
-        </div>
+    <section class="form-section">
+        <form method="POST" action="#" class="signup-form">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            
+            <label for="road" class="radio-spacing">Coding</label>
+            <input type="radio" id="road" name="running_preference" value="road" required>
+            <label for="trail" class="radio-spacing">Code Reviews</label>
+            <input type="radio" id="trail" name="running_preference" value="trail" required>
+            <label for="both" class="radio-spacing">Both</label>
+            <input type="radio" id="both" name="running_preference" value="both" required>
+            
+            <input class="join-button" type="submit" value="Let's Code!">
+        </form>
     </section>
-
-    <div class="container clearfix">
-        <section class="section">
-            <h2>Our Mission</h2>
-            <p class="centered-paragraphs">We are a passionate group of coders who come together to share knowledge, collaborate on projects, and support each other's growth in the field of coding. Our mission is to create a welcoming and inclusive community for developers of all skill levels.</p>
-        </section>
-        
-        <section class="section">
-            <h2>Meetup Events</h2>
-            <p class="centered-paragraphs">We regularly host coding meetups, workshops, and hackathons where members can learn new skills, work on exciting projects, and connect with like-minded individuals. Check out our page to see what's coming up!</p>
-        </section>
-        
-        <section class="section">
-            <h2>Join Us</h2>
-            <p class="centered-paragraphs">If you're passionate about coding and want to be part of a supportive community, we'd love to have you on board. Join our meetup group and start connecting with fellow developers today!</p>
-        </section>
-    </div>
-    
-    
 
     <footer>
         <ul class="social-networks">
@@ -69,9 +66,9 @@
 
     </footer>
 
-       <!--Font awsome-->
-       <script src="https://kit.fontawesome.com/d501bd3350.js" crossorigin="anonymous"></script>
+     <!--Font awsome-->
+     <script src="https://kit.fontawesome.com/d501bd3350.js" crossorigin="anonymous"></script>
+
 
 </body>
-
 </html>

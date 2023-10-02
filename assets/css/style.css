@@ -276,3 +276,65 @@ font-weight: bold;
    
 }
 
+.form-section {
+    clear: left;
+    background: url("../images/invitation-form.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    height: 100vh;
+}
+
+.clearfix {
+    clear: left;
+}
+
+/* Form styles */
+.signup-form {
+margin: 100px 10% 0 0;
+color: #fff;
+background-color: rgba(60, 60, 60, 0.6);
+max-width: 400px;
+position: absolute;
+left: 10%;
+padding: 30px;
+}
+
+.signup-form > h2 {
+color: #fafafa;
+margin-bottom: 20px;
+}
+
+.text-input {
+background: transparent;
+color: #fafafa;
+width: 100%;
+height: 25px;
+margin: 5px 0 20px 0;
+border: 1px solid #fafafa;
+border-radius: 2px;
+}
+
+.text-input:hover {
+border-color: #8e2c08;
+}
+
+.join-button {
+margin-top: 20px;
+border-radius: 2px;
+padding: 15px 32px;
+text-align: center;
+font-size: 100%;
+background-color: #255948;
+color: #fafafa;
+display: block;
+}
+
+.join-button:hover {
+background-color: #8e2c08;
+color: #fafafa;
+}
+
+.radio-spacing {
+    margin-left: 20px;
+}
