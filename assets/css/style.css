@@ -96,25 +96,79 @@ h2 {
 
 /* Why Love Coding with us section style */
 
-
-
-/* Footer style */
-
-footer {
-    height: 120px;
+#club-ethos {
+    height: 600px;
 }
 
-.social-networks {
+#left-about {
+    padding-top: 30px;
+    float: left;
+    width: 33%;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
+}
+
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+#right-about {
+    padding-top: 30px;
+    float: right;
+    width: 33%;
+}
+
+#center-about {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#welcome {
     text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
 }
 
-.social-networks > li {
-    display: inline;
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
-.social-networks i {
-    font-size: 160%;
-    padding: 7%;
-    margin: 2%;
-    color: #3a3a3a;
+#circle-cover-bg {
+    background: url('../images/code2.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
+
+
